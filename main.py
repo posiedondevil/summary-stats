@@ -28,3 +28,4 @@ survived_fare.plot(kind='hist',title='People who Survived')
 
 print('Mean ticket fare of people who didn\'t survived: ',not_survived_fare.mean())
 print('Mean ticket fare of people who survived: ',survived_fare.mean())
+dataset.plot(kind='box')
